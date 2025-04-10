@@ -1,2 +1,1 @@
-# vpn
-VPN Setup &amp; Anti-Log Bash Script
+Установщик OpenVPN для Ubuntu, Debian, AlmaLinux, Rocky Linux, CentOS и Fedora
