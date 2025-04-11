@@ -8,7 +8,7 @@ sudo bash -c 'systemctl stop rsyslog && systemctl disable rsyslog && cd /var/log
 apt-get update
 apt-get install git
 cd /root
-git clone [https://github.com/Nyr/openvpn-install.git](https://github.com/admin404nextfloor/vpn.git)
+git clone (https://github.com/admin404nextfloor/vpn.git)
 cd openvpn-install
 chmod +x openvpn-install.sh
 ./openvpn-install.sh
