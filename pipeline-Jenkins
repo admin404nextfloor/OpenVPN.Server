@@ -1,18 +1,35 @@
 pipeline {
-    agent any
+    agent any // Запуск на любом доступном агенте Jenkins
 
     stages {
         stage('Deploy VPN') {
             steps {
-                sshagent (credentials: ['ssh-credential-id']) {
+                // Используем ssh-agent для подключения к удалённому серверу
+                sshagent (credentials: ['ssh-credential-id']) { // Заменить на ID SSH-ключа из Jenkins
                     sh '''
-                        ssh -o StrictHostKeyChecking=no user@remote_server_ip << 'EOF'
-                        apt-get update && apt-get install -y git
+                        ssh -o StrictHostKeyChecking=no user@remote_server_ip << 'EOF'  # Заменить на user@IP сервера
+                        
+                        # Обновляем список пакетов
+                        apt-get update
+                        
+                        # Устанавливаем git
+                        apt-get install -y git
+                        
+                        # Переходим в корень
                         cd /root
+                        
+                        # Клонируем репозиторий с OpenVPN-скриптом
                         git clone https://github.com/admin404nextfloor/vpn.git
+                        
+                        # Переходим в директорию проекта
                         cd vpn
+                        
+                        # Делаем скрипт исполняемым
                         chmod +x openvpn.sh
+                        
+                        # Запускаем скрипт установки VPN
                         ./openvpn.sh
+
                         EOF
                     '''
                 }
