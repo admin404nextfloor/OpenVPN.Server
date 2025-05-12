@@ -9,6 +9,10 @@
 ![Networking](https://img.shields.io/badge/Networking-L3%2FL4-blueviolet)
 
 
+## Статьи проекта на сторонних ресурсах 
+
+[Как настроить свой VPN за минуту и зачем это нужно: от YouTube до экономии на авиабилетах](https://vc.ru/id4876399/1980432-kak-bystro-nastroit-vpn)
+
 Скрипт автоматической установки OpenVPN сервера на Ubuntu, Debian, AlmaLinux, Rocky Linux, CentOS и Fedora
 
 Этот скрипт позволит вам настроить свой собственный VPN-сервер не более чем за минуту, даже если вы раньше не использовали OpenVPN. Он был разработан так, чтобы быть максимально удобным в установке и настройке.
@@ -25,3 +29,5 @@ cd vpn && \
 chmod +x openvpn.sh && \
 ./openvpn.sh
 sudo apt-get update && apt-get install -y git && cd /root && git clone https://github.com/admin404nextfloor/vpn.git && cd vpn && chmod +x openvpn.sh && ./openvpn.sh
+
+
