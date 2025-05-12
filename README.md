@@ -21,13 +21,6 @@
 📥 Выполните следующую команду на вашем сервере (скопировать и вставить в терминал):
 
 ```bash
-sudo apt-get update && \
-sudo apt-get install -y git && \
-cd /root && \
-git clone https://github.com/admin404nextfloor/vpn.git && \
-cd vpn && \
-chmod +x openvpn.sh && \
-./openvpn.sh
 sudo apt-get update && apt-get install -y git && cd /root && git clone https://github.com/admin404nextfloor/vpn.git && cd vpn && chmod +x openvpn.sh && ./openvpn.sh
 
 
