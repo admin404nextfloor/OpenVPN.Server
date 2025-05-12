@@ -1,12 +1,4 @@
-# OpenVPN Installer / Установщик OpenVPN
 
-![Bash](https://img.shields.io/badge/Shell-Bash-blue)
-![Jenkins](https://img.shields.io/badge/CI-Jenkins-red)
-![Git](https://img.shields.io/badge/Git-Enabled-green)
-![Linux](https://img.shields.io/badge/OS-Linux-yellow)
-![SSH](https://img.shields.io/badge/Access-SSH-lightgrey)
-![VPN](https://img.shields.io/badge/Security-VPN-darkgreen)
-![Networking](https://img.shields.io/badge/Networking-L3%2FL4-blueviolet)
 
 # OpenVPN Installer / Установщик OpenVPN 🌐🔒
 
@@ -24,9 +16,6 @@
 
 > Я смотрел заблокированный ролик, пока кофе остывал, и всё без единого лага. Попробуй и ты!
 
-## 📚 Полезные материалы
-
-- [Как настроить свой VPN за минуту и зачем это нужно: от YouTube до экономии на авиабилетах](https://vc.ru/id4876399/1980432-kak-bystro-nastroit-vpn) — статья на vc.ru с лайфхаками и подробностями.
 
 ## 🌟 Почему это круто
 
